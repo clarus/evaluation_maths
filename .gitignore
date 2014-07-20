@@ -1,6 +1,7 @@
 *.make
 *.temp
 *.d
+*.pdf
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
