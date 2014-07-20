@@ -3,7 +3,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[francais]{babel}
-%\usepackage[cm]{fullpage}
+\usepackage{fullpage}
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath,amsfonts,amssymb}
@@ -12,8 +12,11 @@
 
 \begin{document}
   \title{Évaluation de Mathématiques - Bac Pro}
-  \author{}
-  \date{\today}
+  \author{Module 1~: prérequis}
+  \date{
+    Nom~: .......................................\\
+    \vspace{0.2cm}
+    Date~: .......................................}
   \maketitle
   
   \section*{Puissances}
@@ -124,50 +127,52 @@
   \]
 
   \section*{Représentation graphique}
-  \begin{tikzpicture}    
-    % lignes horizontales
-    \draw[dashed] (-4.7, -4) -- (+4.7, -4);
-    \draw[dashed] (-4.7, -3) -- (+4.7, -3);
-    \draw[dashed] (-4.7, -2) -- (+4.7, -2);
-    \draw[dashed] (-4.7, -1) -- (+4.7, -1);
-    \draw[dashed] (-4.7, +0) -- (+4.7, +0);
-    \draw[dashed] (-4.7, +1) -- (+4.7, +1);
-    \draw[dashed] (-4.7, +2) -- (+4.7, +2);
-    \draw[dashed] (-4.7, +3) -- (+4.7, +3);
-    \draw[dashed] (-4.7, +4) -- (+4.7, +4);
-    
-    % lignes verticales
-    \draw[dashed] (-4, -4.7) -- (-4, +4.7);
-    \draw[dashed] (-3, -4.7) -- (-3, +4.7);
-    \draw[dashed] (-2, -4.7) -- (-2, +4.7);
-    \draw[dashed] (-1, -4.7) -- (-1, +4.7);
-    \draw[dashed] (+0, -4.7) -- (+0, +4.7);
-    \draw[dashed] (+1, -4.7) -- (+1, +4.7);
-    \draw[dashed] (+1, -4.7) -- (+1, +4.7);
-    \draw[dashed] (+2, -4.7) -- (+2, +4.7);
-    \draw[dashed] (+3, -4.7) -- (+3, +4.7);
-    \draw[dashed] (+4, -4.7) -- (+4, +4.7);
+  \begin{center}
+      \begin{tikzpicture}    
+      % lignes horizontales
+      \draw[dashed] (-4.7, -4) -- (+4.7, -4);
+      \draw[dashed] (-4.7, -3) -- (+4.7, -3);
+      \draw[dashed] (-4.7, -2) -- (+4.7, -2);
+      \draw[dashed] (-4.7, -1) -- (+4.7, -1);
+      \draw[dashed] (-4.7, +0) -- (+4.7, +0);
+      \draw[dashed] (-4.7, +1) -- (+4.7, +1);
+      \draw[dashed] (-4.7, +2) -- (+4.7, +2);
+      \draw[dashed] (-4.7, +3) -- (+4.7, +3);
+      \draw[dashed] (-4.7, +4) -- (+4.7, +4);
+      
+      % lignes verticales
+      \draw[dashed] (-4, -4.7) -- (-4, +4.7);
+      \draw[dashed] (-3, -4.7) -- (-3, +4.7);
+      \draw[dashed] (-2, -4.7) -- (-2, +4.7);
+      \draw[dashed] (-1, -4.7) -- (-1, +4.7);
+      \draw[dashed] (+0, -4.7) -- (+0, +4.7);
+      \draw[dashed] (+1, -4.7) -- (+1, +4.7);
+      \draw[dashed] (+1, -4.7) -- (+1, +4.7);
+      \draw[dashed] (+2, -4.7) -- (+2, +4.7);
+      \draw[dashed] (+3, -4.7) -- (+3, +4.7);
+      \draw[dashed] (+4, -4.7) -- (+4, +4.7);
 
-    % axes
-    \draw[->, thick] (+0, -5) -- (+0, +5);
-    \draw[->, thick] (-5, +0) -- (+5, +0);
+      % axes
+      \draw[->, thick] (+0, -5) -- (+0, +5);
+      \draw[->, thick] (-5, +0) -- (+5, +0);
 
-    % points
-    \draw (0, 0) node[below left]{$0$};
-    \fill(0, 0) circle (0.07cm);
-    \draw (1, 0) node[below right]{$1$};
-    \fill(1, 0) circle (0.07cm);
-    \draw (0, 1) node[above left]{$1$};
-    \fill(0, 1) circle (0.07cm);
-    \draw (3, 3) node[above right]{$A$};
-    \fill(3, 3) circle (0.07cm);
-    \draw (1, -1) node[below left]{$B$};
-    \fill(1, -1) circle (0.07cm);
-    \draw (-2, 3) node[below left]{$C$};
-    \fill(-2, 3) circle (0.07cm);
-    \draw (3, -1) node[below right]{$D$};
-    \fill(3, -1) circle (0.07cm);
-  \end{tikzpicture}
+      % points
+      \draw (0, 0) node[below left]{$0$};
+      \fill(0, 0) circle (0.07cm);
+      \draw (1, 0) node[below right]{$1$};
+      \fill(1, 0) circle (0.07cm);
+      \draw (0, 1) node[above left]{$1$};
+      \fill(0, 1) circle (0.07cm);
+      \draw (3, 3) node[above right]{$A$};
+      \fill(3, 3) circle (0.07cm);
+      \draw (1, -1) node[below left]{$B$};
+      \fill(1, -1) circle (0.07cm);
+      \draw (-2, 3) node[below left]{$C$};
+      \fill(-2, 3) circle (0.07cm);
+      \draw (3, -1) node[below right]{$D$};
+      \fill(3, -1) circle (0.07cm);
+    \end{tikzpicture}
+  \end{center}
 
   \paragraph{1)}
   Placer dans le repère orthonormé les points suivants~:
