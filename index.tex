@@ -7,6 +7,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{graphicx}
 \usepackage{amsmath,amsfonts,amssymb}
+\usepackage{tikz}
 \usepackage{eurosym}
 
 \begin{document}
@@ -120,5 +121,34 @@
       \hline
       \quad\quad 4x + 3 \geq 2x + 3 \quad&\quad 8 > x - 4 \quad\quad\\[2cm]
     \end{array}
-  \]  
+  \]
+
+  \section*{Représentation graphique}
+  \begin{tikzpicture}
+    % lignes verticales
+    \draw[dashed] (-5, -5) -- (-5, +5);
+    \draw[dashed] (-4, -5) -- (-4, +5);
+    \draw[dashed] (-3, -5) -- (-3, +5);
+    \draw[dashed] (-2, -5) -- (-2, +5);
+    \draw[dashed] (-1, -5) -- (-1, +5);
+    \draw[dashed] (+0, -5) -- (+0, +5);
+    \draw[dashed] (+1, -5) -- (+1, +5);
+    \draw[dashed] (+1, -5) -- (+1, +5);
+    \draw[dashed] (+2, -5) -- (+2, +5);
+    \draw[dashed] (+3, -5) -- (+3, +5);
+    \draw[dashed] (+4, -5) -- (+4, +5);
+    \draw[dashed] (+5, -5) -- (+5, +5);
+    % lignes horizontales
+    \draw[dashed] (-5, -5) -- (+5, -5);
+    \draw[dashed] (-5, -4) -- (+5, -4);
+    \draw[dashed] (-5, -3) -- (+5, -3);
+    \draw[dashed] (-5, -2) -- (+5, -2);
+    \draw[dashed] (-5, -1) -- (+5, -1);
+    \draw[dashed] (-5, +0) -- (+5, +0);
+    \draw[dashed] (-5, +1) -- (+5, +1);
+    \draw[dashed] (-5, +2) -- (+5, +2);
+    \draw[dashed] (-5, +3) -- (+5, +3);
+    \draw[dashed] (-5, +4) -- (+5, +4);
+    \draw[dashed] (-5, +5) -- (+5, +5);
+  \end{tikzpicture}
 \end{document}
